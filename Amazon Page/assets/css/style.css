@@ -1,0 +1,166 @@
+/* Your styles here */
+
+/* GLOBAL SETTINGS */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin: 2.3rem;
+}
+
+a {
+  color: #0a7995;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+/* GLOBAL CLASSES */
+.global-padding {
+  padding: 1rem 2rem;
+}
+
+.global-margin {
+  margin: 2rem 0;
+}
+
+.white-text {
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* HEADER */
+header > div {
+  background-color: #222f3f;
+}
+
+#header-logo {
+  height: 3em;
+  width: 7em;
+}
+
+#header-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+nav {
+  background-color: #364759;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+/* MAIN*/
+main.global-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+main button {
+  display: block;
+  width: 100%;
+  background-color: #f56600;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+/* hero section */
+main > section:nth-child(2) {
+  background-image: url(/assets/images/bg-image.png);
+  background-position: top center;
+}
+
+main > section > p {
+  margin-bottom: 2rem;
+}
+
+/* second section */
+main section:nth-child(3) {
+  background-color: white;
+  padding-bottom: 1rem;
+}
+
+main section:nth-child(3) div p,
+a {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+/* carousel */
+.card {
+  display: inline-block;
+  width: 13em;
+  height: 16em;
+  margin: 0 0.5rem;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  object-fit: cover;
+  box-shadow: 15px 8px 10px #e9eaec;
+}
+
+/* ARTICLE */
+aside section > div img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+aside section div:nth-child(2) p {
+  display: inline-block;
+  margin-top: 0.3rem;
+  margin-bottom: 2rem;
+}
+
+/* FOOTER*/
+footer div:first-of-type {
+  background-color: #364759;
+  padding: 1rem;
+}
+
+footer a {
+  text-decoration: underline;
+  color: white;
+  margin-bottom: 0;
+}
+
+footer div:last-of-type {
+  background-color: #222f3f;
+}
+
+#footer-logo {
+  padding: 1rem 0;
+  height: 8em;
+  width: 10em;
+  margin: 0 auto;
+}
+
+#footer-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
